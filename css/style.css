@@ -222,7 +222,7 @@ figure {
 
 .container-modules {
   margin: 0 auto;
-  padding: 105px 1385px 1385px 427px;
+  padding: 105px 0;
   width: 1170px;
 }
 
@@ -231,5 +231,30 @@ figure {
   position: absolute;
   color: #333333;
   margin: 50px 1408px 1397px 375px;
+}
+
+.main-menu {
+  font-family: 'Roboto';
+  font-style: normal;
+  color: #3F2AFF;
+  background-image: url(../img/Arrow\ 1\ .svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 52px;
+}
+
+.title-module {
+  margin: 0;
+  color: #3F2AFF;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.background-img-1 {
+  background-position: top left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
 }
 
