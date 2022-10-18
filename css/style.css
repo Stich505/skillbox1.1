@@ -23,6 +23,10 @@ body {
   font-family: Arial, Verdana, sans-serif;
 }
 
+.content {
+
+}
+
 .main-content {
   display: flex;
 
@@ -221,26 +225,31 @@ figure {
 }
 
 .container-modules {
-  margin: 0 auto;
-  padding: 105px 0;
   width: 1170px;
 }
 
+.menu-logo {
+  margin-bottom: 25px;
+}
 
 .logo-vector {
-  position: absolute;
   color: #333333;
-  margin: 50px 1408px 1397px 375px;
 }
+
+
 
 .main-menu {
   font-family: 'Roboto';
   font-style: normal;
   color: #3F2AFF;
-  background-image: url(../img/Arrow\ 1\ .svg);
+  background-image: url(../img/Arrow1.svg);
   background-position: left center;
   background-repeat: no-repeat;
-  padding-left: 52px;
+}
+
+.menu-item {
+  margin-left: 50px;
+
 }
 
 .title-module {
@@ -249,6 +258,22 @@ figure {
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: inline-block;
+}
+
+.card:nth-child(2n) { margin-right: 0;} {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.table {
+  width: 572px;
+  height: 325px;
+  margin-left: 0;
 }
 
 .background-img-1 {
@@ -258,3 +283,20 @@ figure {
   padding-bottom: 25px;
 }
 
+.unit-header {
+  font-weight: 700;
+  font-size: 40px;
+  color: #3F2AFF;
+  border-bottom: 2px;
+}
+
+.number {
+  height: 46px;
+  width: 45px;
+  left: 502px;
+  top: 434px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #EAEAEA;
+}
