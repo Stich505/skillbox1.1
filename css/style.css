@@ -226,6 +226,7 @@ figure {
 
 .container-modules {
   width: 1170px;
+
 }
 
 .menu-logo {
@@ -265,18 +266,20 @@ figure {
   display: inline-block;
 }
 
-.card:nth-child(2n) { margin-right: 0;} {
+.card:nth-child(2n) { margin-right: 0; } {
   display: inline-block;
-  margin-right: 25px;
+  width: 572px;
+  height: 325px;
+
 }
 
 .table {
-  width: 572px;
-  height: 325px;
+
   margin-left: 0;
 }
 
 .background-img-1 {
+
   background-position: top left;
   background-size: contain;
   background-repeat: no-repeat;
